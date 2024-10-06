@@ -23,7 +23,7 @@ public class ReadExcelSheet {
 
 		Workbook w = new XSSFWorkbook(input);
 
-		Sheet s =	w.getSheet("Sheet1");
+		Sheet s = w.getSheet("Sheet1");
 
 		Row r =s.getRow(0); 
 
